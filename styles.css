@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 6rem;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+
+.navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  top: -2rem;
+  cursor: pointer;
+  width: 90%;
+}
+
+.nav-list {
+  width: 80%;
+  display: flex;
+  padding: center;
+  align-items: center;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 40px;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-list li:hover{
+  color: greenyellow;
+  transform: scale3d(1.1,1.1,1.1);
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  color: greenyellow;
+  transform: scale3d(1.1,1.1,1.1);
+
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+
+
+}
+
+#sec {
+  margin-top: -0.105rem;
+  transition: all ease-in-out 0.3s;
+}
+
+#sec:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#search {
+  transition: all ease-in-out 0.3s;
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+
+#search:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+body .background button {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.rightNav {
+  width: 100%;
+  text-align: right;
+  padding: 0 23px;
+  margin-top: -1rem;
+  margin-right: -5rem;
+  padding-right: -5rem;
+}
+
+#search {}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1503252947848-7338d3f92f31?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+
+.firstHalf {
+  height: 100vh;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -2.56rem;
+  margin-left: -5.2rem;
+
+}
+
+section .paras p {
+  color: white;
+  line-height: 1.56rem;
+
+
+}
+
+section {
+  margin: -1rem;
+  margin-left: -8rem;
+  margin-right: -8rem;
+}
+
+section .paras .text-big {
+  margin-bottom: 2.56rem;
+  color: goldenrod;
+  font-weight: 800;
+
+}
+
+.secondHalf {
+  width: 30%;
+}
+
+.secondHalf img {
+  width: 120;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+  padding: 2px;
+  margin-left: 8rem;
+}
+
+img {
+  margin: 2rem;
+}
+
+
+section .firstHalf p {
+  margin-top: 1rem;
+  color: white;
+  line-height: 1.70rem;
+}
+
+.text-big {
+  font-size: 35px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+
+.btn:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  color: goldenrod;
+  background-color: white;
+}
+
+.btn-sn {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.srcRight {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+
+.srcleft {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  flex-direction: row-reverse;
+}
+
+.paras {
+  padding: 0px 65px;
+}
+
+.sectionSubTag {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.thumbnail img {
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 26px;
+  margin-top: 19px;
+  background-color: black;
+}
